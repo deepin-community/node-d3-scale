@@ -1,0 +1,98 @@
+node-d3-scale (2.2.2-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Pirate Praveen ]
+  * Drop unused debian/webpack.config.js
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Drop unused dependency on node-package-preamble
+  * Enable nocheck build profile
+  * Drop unused lintian overrides file
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 16 Dec 2020 02:02:15 +0530
+
+node-d3-scale (2.2.2-2) unstable; urgency=medium
+
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 13 Mar 2020 23:21:56 +0530
+
+node-d3-scale (2.2.2-1) experimental; urgency=medium
+
+  * New upstream version 2.2.2
+  * Drop rollup-plugin-terser and use uglifyjs.terser command
+  * Use rollup.config.js
+  * Switch to pkg-js-tools auto install
+  * Build with rollup 1.0
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 13 Oct 2019 17:11:52 +0530
+
+node-d3-scale (1.0.7-6) unstable; urgency=medium
+
+  * Switch to rollup from webpack for build (as upstream uses rollup and we
+    used webpack in debian because rollup was not available in main).
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 24 Aug 2019 17:15:26 +0000
+
+node-d3-scale (1.0.7-5) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+  * Install in /usr/share
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 04 Aug 2019 14:47:19 +0000
+
+node-d3-scale (1.0.7-4) experimental; urgency=medium
+
+  * Build with webpack 4
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 30 Jul 2019 06:08:46 +0000
+
+node-d3-scale (1.0.7-3) unstable; urgency=medium
+
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jul 2019 21:53:52 +0530
+
+node-d3-scale (1.0.7-2) experimental; urgency=medium
+
+  * Install ES module (src directory)
+  * Switch to pkg-js-tools for tests
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 22 Jun 2019 18:53:26 +0530
+
+node-d3-scale (1.0.7-1) experimental; urgency=medium
+
+  * New upstream version 1.0.7
+  * Bump debhelper compatibility level to 11
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 15 Jun 2019 11:07:51 +0530
+
+node-d3-scale (1.0.6-3) unstable; urgency=medium
+
+  * Add TZ to autopkgtest as well (fix autopkgtests)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jan 2018 18:15:59 +0530
+
+node-d3-scale (1.0.6-2) unstable; urgency=medium
+
+  * Use webpack to build umd module like upstream
+  * Use externals to map -g option of rollup
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jan 2018 17:56:20 +0530
+
+node-d3-scale (1.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #878020)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 09 Oct 2017 10:59:43 +0530
