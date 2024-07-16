@@ -1,1 +1,3 @@
 reproducible_build.diff
+fix-test-for-d3-array-3.patch
+fix-for-rollup-3.patch
